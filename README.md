@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # ASIC Multi-Block Logic Synthesis & Profiler Automation Flow
 
 A modular Tcl-based automated flow for multi-block RTL logic synthesis and hardware metric profiling using Yosys Open SYnthesis Suite.
