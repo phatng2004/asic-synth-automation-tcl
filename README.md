@@ -22,3 +22,20 @@ asic_synth_flow/
 ├── .gitignore
 └── README.md
 
+# Prerequisites
+
+- Linux environment (tested on Raspberry Pi OS / Debian)
+- Yosys Open-Source Logic Synthesis Tool
+- Tcl / Tk environment
+
+
+# How to run
+
+- Run the flow with Yosys:
+yosys -c synth_flow.tcl
+
+- view the generated summary table:
+cat synth_summary.rpt
+
+
+
