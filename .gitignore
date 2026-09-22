@@ -1,0 +1,6 @@
+cat << 'EOF' > .gitignore
+temp_*
+*.tmp
+*.log
+EOF
+
